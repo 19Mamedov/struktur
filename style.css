@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > div {
+    background-color: white;
+    width: 100px;
+    height: 80px;
+}
+
+nav > ul {
+
+    background-color: white;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav > ul > li {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+nav > div, ul {
+
+    margin-top: 10px;
+}
+
+/* HEADER */
+
+
+header {
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin-left: 100px;
+}
+.header1 > div {
+    background-color:white;
+    height: 450px;
+    width: 550px;
+    margin-left: 100px;
+}
+.header1 > div > img {
+    height: 450px;
+    width: 550px;
+
+}
+
+
+
+.header1 > div > div > h3 {
+
+    background-color: rgb(221, 143, 47);
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.header1 > div > div > h1 {
+
+    background-color: rgb(34, 17, 159);
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+
+
+}
+
+.header1 > div > div > p {
+
+    background-color: rgb(66, 66, 68);
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    padding-top: 10px;
+
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin: 30px;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(82, 81, 81);
+    margin: 30px;
+}
+
+.buttonTop {
+    display: flex;
+    
+}
+
+/* SECTION */
+.section1 {
+     background-color: aqua;
+     width: 100%;
+     height: 600px;
+}
+
+.divOrta > h3 {
+    
+    background-color: rgb(221, 143, 47);
+    width: 200px;
+    height: 30px;
+    margin-left: 650px;
+}
+.divOrta > h1 {
+    background-color: rgb(34, 17, 159);
+    width: 400px;
+    height: 60px;
+    margin-left: 550px;
+
+
+}
+.divOrta > p {
+    background-color: rgb(66, 66, 68);
+    width: 500px;
+    height: 100px;
+    margin-left: 500px;
+    
+
+}
+.divOrta2 {
+    
+    display: flex;
+    justify-content: space-around;
+}
+.section1 > div > div > h1 {
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+
+}
+.section1 > div > div > p {
+    background-color: gray;
+    width: 250px;
+    height: 200px;
+    margin: auto
+}
+
+.divorta21 {
+
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+
+/* section 2 */
+
+.section2 {
+    background-color: purple;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section2 > div  {
+
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+
+}
+.section2 > div > img {
+    width: 500px;
+    height: 550px;
+}
+
+.section2 > div > div > h2 {
+    background-color: rgb(34, 17, 159);
+    width: 400px;
+    height: 60px;
+    /* margin-left: 550px; */
+    margin: auto;
+
+}
+
+.section2 > div > div > h3 {
+    
+    background-color: rgb(221, 143, 47);
+    width: 200px;
+    height: 30px;
+    /* margin-left: 650px; */
+    margin: auto;
+}
+
+
+.section2 > div > div >  p {
+
+    background-color: rgb(66, 66, 68);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+/* SECTION 3 */
+
+.section3 {
+    background-color: cadetblue;
+    width: 100%;
+    height: 700px;
+}
+
+.section31 > h3 {
+   
+    background-color: rgb(221, 143, 47);
+    width: 200px;
+    height: 30px;
+    /* margin-left: 650px; */
+    margin: auto;
+}
+
+.section31 > h1 {
+    background-color: rgb(34, 17, 159);
+    width: 400px;
+    height: 60px;
+    /* margin-left: 550px; */
+    margin: auto;
+
+}
+.section313  {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+}
+
+.section3 > div > div {
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    /* display: flex;
+    justify-content:space-around;
+    gap: 20px; */
+
+}
+
+.section3 > div > div > div {
+    width:250px;
+    height: 170px;
+    background-color: black;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+/* section 4 */
+
+.section4 {
+    width: 100%;
+    height: 600px;
+}
+
+.section4 > div > h3 {
+
+    background-color: rgb(221, 143, 47);
+    width: 200px;
+    height: 30px;
+    /* margin-left: 650px; */
+    margin: auto;
+
+}
+.section4 > div > h1 {
+
+    background-color: rgb(34, 17, 159);
+    width: 400px;
+    height: 60px;
+    /* margin-left: 550px; */
+    margin: auto;
+    
+}
+.section4 > div > p {
+
+    
+    background-color: rgb(66, 66, 68);
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    
+}
+.section42 {
+     background-color: aqua;
+     width: 70%;
+     height: 300px;
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+
+}
+
+.section42 > div {
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+
+.footer1 {
+    background-color: rgb(8, 141, 12);
+    width: 90%;
+    height:250px ;
+    margin: auto;
+}
+.footer2 {
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
